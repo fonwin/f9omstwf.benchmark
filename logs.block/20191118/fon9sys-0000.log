@@ -1,0 +1,182 @@
+20191118-210906.118401  1950[IMP  ]LogFile.OnStart|orig=./logs/20191118/fon9sys-0000.log|time+8=20191118210906.118401
+20191118-210906.118311  1951[IMP  ]TimerThread.ThrRun|name=Default.TimerThread
+20191118-210906.123556  1950[ERROR]$MemLock:mlockall(MCL_CURRENT|MCL_FUTURE)|err=:12:Cannot allocate memory
+20191118-210906.123789  1950[INFO ]#Dgram|Plugins running
+20191118-210906.123821  1950[INFO ]#FileIO|Plugins running
+20191118-210906.123830  1950[INFO ]#TcpClient|Plugins running
+20191118-210906.123837  1950[INFO ]#TcpServer|Plugins running
+20191118-210906.123843  1950[INFO ]#NamedIoManager|Plugins running
+20191118-210906.123988  1950[INFO ]#UtwOmsCore|Plugins running
+20191118-210907.118524  1952[IMP  ]MessageQueue.ThrRun|name=fon9.DefaultThreadPool|indexInPool=1
+20191118-210907.118560  1953[IMP  ]MessageQueue.ThrRun|name=fon9.DefaultThreadPool|indexInPool=2
+20191118-210907.118643  1954[IMP  ]MessageQueue.ThrRun|name=fon9.DefaultThreadPool|indexInPool=3
+20191118-210907.118667  1955[IMP  ]MessageQueue.ThrRun|name=fon9.DefaultThreadPool|indexInPool=4
+20191118-210907.124079  1951[WARN ]IoManager.MaIo.CheckOpenDevice|cfgid=iOmsRcSv|ses=OmsRcSvr|sesArgs={}|dev=TcpServer|devArgs={6601}|res=3|err=20191118130907.124071|Session factory not found.|
+20191118-210907.235572  1950[INFO ]#RcSessionServer|Plugins running
+20191118-210907.235577  1956[IMP  ]OmsBackend.ThrRun|name=omstw_20191118_Backend
+20191118-210907.235599  1950[INFO ]#OmsRcServerAgent|Plugins running
+20191118-210907.235635  1957[IMP  ]MessageQueue.ThrRun|name=omstw_20191118|indexInPool=1
+20191118-210907.235837  1957[INFO ]OmsThread|name=omstw_20191118|Type=f9omstw::OmsCoreByThread<fon9::WaitPolicy_CV>|Cpu=19:OK
+20191118-210907.295296  1951[INFO ]FileImpMgr|Info=NextCheckTime|Name=ExgConfig/ExgImporter|SchCfg={Weekdays=0123456|Start=00:00:00|TZ=L}
+20191118-210907.295328  1952[INFO ]FileImpMgr|Info=LoadAll.Start|Name=ExgConfig/ExgImporter
+20191118-210907.295336  1952[INFO ]FileImpSeed.Start|Name=P06|fname=./tmpsave/P06|pos=0
+20191118-210907.307953  1952[INFO ]FileImpSeed.Done|Name=P06|loader=7f0f4c000a50|result=20191118-21:09:07.307940|fname=./tmpsave/P06|ftime=20191009-15:53:06|fsize=6264|LnCount=522
+20191118-210907.307957  1952[INFO ]FileImpSeed.~Loader|loader=7f0f4c000a50
+20191118-210907.307962  1952[INFO ]FileImpSeed.Start|Name=P07_10|fname=./tmpsave/P07.10|pos=0
+20191118-210907.308002  1952[INFO ]FileImpSeed.Done|Name=P07_10|loader=0|result=20191118-21:09:07.307999|fname=./tmpsave/P07.10|Open err=:2:No such file or directory
+20191118-210907.308004  1952[INFO ]FileImpSeed.Start|Name=P07_11|fname=./tmpsave/P07.11|pos=0
+20191118-210907.308016  1952[INFO ]FileImpSeed.Done|Name=P07_11|loader=0|result=20191118-21:09:07.308014|fname=./tmpsave/P07.11|Open err=:2:No such file or directory
+20191118-210907.308017  1952[INFO ]FileImpSeed.Start|Name=P07_20|fname=./tmpsave/P07.20|pos=0
+20191118-210907.308028  1952[INFO ]FileImpSeed.Done|Name=P07_20|loader=0|result=20191118-21:09:07.308026|fname=./tmpsave/P07.20|Open err=:2:No such file or directory
+20191118-210907.308029  1952[INFO ]FileImpSeed.Start|Name=P07_21|fname=./tmpsave/P07.21|pos=0
+20191118-210907.308039  1952[INFO ]FileImpSeed.Done|Name=P07_21|loader=0|result=20191118-21:09:07.308038|fname=./tmpsave/P07.21|Open err=:2:No such file or directory
+20191118-210907.308041  1952[INFO ]FileImpSeed.Start|Name=P08_10|fname=./tmpsave/P08.10|pos=0
+20191118-210907.313796  1950[IMP  ]SysEnv|ProcessId=1950
+20191118-210907.313799  1950[IMP  ]SysEnv|CommandLine=home/fonwin/devel/output/f9omstw/release/f9utw/f9utw
+20191118-210907.313800  1950[IMP  ]SysEnv|ExecPath=/home/fonwin/f9utwf/block
+20191118-210907.313802  1950[IMP  ]SysEnv|ConfigPath=fon9cfg/
+20191118-210907.313803  1950[IMP  ]SysEnv|HostId=221
+20191118-210907.347610  1952[INFO ]FileImpSeed.Done|Name=P08_10|loader=7f0f4c003630|result=20191118-21:09:07.347599|fname=./tmpsave/P08.10|ftime=20191007-08:10:08|fsize=1214080|LnCount=7588
+20191118-210907.347620  1952[INFO ]FileImpSeed.~Loader|loader=7f0f4c003630
+20191118-210907.347624  1952[INFO ]FileImpSeed.Start|Name=P08_11|fname=./tmpsave/P08.11|pos=0
+20191118-210907.355574  1952[INFO ]FileImpSeed.Done|Name=P08_11|loader=7f0f4c003630|result=20191118-21:09:07.355562|fname=./tmpsave/P08.11|ftime=20191007-15:00:01|fsize=64640|LnCount=404
+20191118-210907.355586  1952[INFO ]FileImpSeed.~Loader|loader=7f0f4c003630
+20191118-210907.355589  1952[INFO ]FileImpSeed.Start|Name=P08_20|fname=./tmpsave/P08.20|pos=0
+20191118-210907.366523  1952[INFO ]FileImpSeed.Done|Name=P08_20|loader=7f0f4c003630|result=20191118-21:09:07.366510|fname=./tmpsave/P08.20|ftime=20191007-08:10:01|fsize=177600|LnCount=1110
+20191118-210907.366533  1952[INFO ]FileImpSeed.~Loader|loader=7f0f4c003630
+20191118-210907.366537  1952[INFO ]FileImpSeed.Start|Name=P08_21|fname=./tmpsave/P08.21|pos=0
+20191118-210907.371309  1952[INFO ]FileImpSeed.Done|Name=P08_21|loader=7f0f4c003630|result=20191118-21:09:07.371299|fname=./tmpsave/P08.21|ftime=20191007-15:00:01|fsize=6080|LnCount=38
+20191118-210907.371319  1952[INFO ]FileImpSeed.~Loader|loader=7f0f4c003630
+20191118-210907.371323  1952[INFO ]FileImpSeed.Start|Name=PA8_10|fname=./tmpsave/PA8.10|pos=0
+20191118-210907.380967  1952[INFO ]FileImpSeed.Done|Name=PA8_10|loader=7f0f4c003630|result=20191118-21:09:07.380954|fname=./tmpsave/PA8.10|ftime=20191007-08:10:15|fsize=1289960|LnCount=7588
+20191118-210907.380978  1952[INFO ]FileImpSeed.~Loader|loader=7f0f4c003630
+20191118-210907.380982  1952[INFO ]FileImpSeed.Start|Name=PA8_11|fname=./tmpsave/PA8.11|pos=0
+20191118-210907.419245  1952[INFO ]FileImpSeed.Done|Name=PA8_11|loader=7f0f4c003630|result=20191118-21:09:07.419234|fname=./tmpsave/PA8.11|ftime=20191007-15:00:01|fsize=68680|LnCount=404
+20191118-210907.419256  1952[INFO ]FileImpSeed.~Loader|loader=7f0f4c003630
+20191118-210907.419260  1952[INFO ]FileImpSeed.Start|Name=PA8_20|fname=./tmpsave/PA8.20|pos=0
+20191118-210907.427209  1952[INFO ]FileImpSeed.Done|Name=PA8_20|loader=7f0f4c003630|result=20191118-21:09:07.427198|fname=./tmpsave/PA8.20|ftime=20191007-08:10:01|fsize=188700|LnCount=1110
+20191118-210907.427220  1952[INFO ]FileImpSeed.~Loader|loader=7f0f4c003630
+20191118-210907.427224  1952[INFO ]FileImpSeed.Start|Name=PA8_21|fname=./tmpsave/PA8.21|pos=0
+20191118-210907.432058  1952[INFO ]FileImpSeed.Done|Name=PA8_21|loader=7f0f4c003630|result=20191118-21:09:07.432047|fname=./tmpsave/PA8.21|ftime=20191007-15:00:01|fsize=6460|LnCount=38
+20191118-210907.432068  1952[INFO ]FileImpSeed.~Loader|loader=7f0f4c003630
+20191118-210907.432073  1952[INFO ]FileImpMgr|Info=LoadAll.Done|Name=ExgConfig/ExgImporter|SchCfg={Weekdays=0123456|Start=00:00:00|TZ=L}
+20191118-210908.240688  1959[IMP  ]FdrThread.ThrRun|name=MaIo.epoll|index=1|Cpu=-1:|Wait=Block|Capacity=100
+20191118-210908.240713  1955[INFO ]IoManager.MaIo.DeviceState|dev=7f0f753a6790|cfgid=iOmsRcSv|st=3.Opening|OmsRcSvr={}|TcpServer={6601}
+20191118-210908.240796  1960[IMP  ]FdrThread.ThrRun|name=MaIo.epoll|index=2|Cpu=-1:|Wait=Block|Capacity=100
+20191118-210908.241347  1955[INFO ]IoManager.MaIo.DeviceState|dev=7f0f753a6790|cfgid=iOmsRcSv|st=9.Listening|id={L=0.0.0.0:6601}|info=
+20191118-210910.237149  1961[IMP  ]FdrThread.ThrRun|name=UtwFutNormal_io.epoll|index=1|Cpu=-1:|Wait=Block|Capacity=0
+20191118-210910.237175  1962[IMP  ]FdrThread.ThrRun|name=UtwFutNormal_io.epoll|index=2|Cpu=-1:|Wait=Block|Capacity=0
+20191118-210910.237227  1952[INFO ]IoManager.UtwFutNormal_io.DeviceState|dev=7f0f7558bdb0|cfgid=L50|st=3.Opening|TWF={FcmId=279|SessionId=51|Pass=9999|ApCode=4|IsUseSymNum=N}|TcpClient={192.168.1.33:9000|Bind=49051|ReuseAddr=Y|ClosedReopen=5}
+20191118-210910.239850  1954[INFO ]IoManager.UtwFutNormal_io.DeviceState|dev=7f0f7558bdb0|cfgid=L50|st=7.LinkReady|id={R=192.168.1.33:9000|L=192.168.1.221:49051}|info=
+20191118-210910.274351  1961[INFO ]IoManager.UtwFutNormal_io.SessionState|dev=7f0f7558bdb0|cfgid=L50|st=4:ApReady
+20191118-210919.702566  1959[INFO ]TcpServer.Accepted|dev=7f0f38001590|seq=1|R=127.0.0.1:39064|L=127.0.0.1:6601
+20191118-210919.702594  1952[INFO ]IoManager.MaIo.DeviceState|dev=7f0f38001590|st=7.LinkReady|id={R=127.0.0.1:39064|L=127.0.0.1:6601}|info=
+20191118-210919.736093  1960[INFO ]UserMgr.AuthUpdate|table=UserSha256|from=127.0.0.1|authcId=fonwin
+20191118-210919.736174  1960[INFO ]IoManager.MaIo.SessionState|dev=7f0f38001590|st=|RemoteAp=f9omsApi.0|from=127.0.0.1|user=fonwin|Last logon: 2019/11/18 17:36:56 from 127.0.0.1
+20191118-210921.848520  1952[INFO ]IoManager.MaIo.DeviceState|dev=7f0f38001590|st=14.Disposing|id={R=127.0.0.1:39064|L=127.0.0.1:6601}|info=Recv:disconnected.
+20191118-210924.069523  1950[IMP  ]main.quit|cause=console:<Signal TERM>
+20191118-210924.069621  1953[INFO ]#Dgram|Plugins stop
+20191118-210924.069635  1953[INFO ]#FileIO|Plugins stop
+20191118-210924.069638  1953[INFO ]#TcpClient|Plugins stop
+20191118-210924.069645  1955[INFO ]IoManager.MaIo.DeviceState|dev=7f0f753a6790|cfgid=iOmsRcSv|st=13.Closed|id={L=0.0.0.0:6601}|info=Parent clear
+20191118-210924.069651  1955[INFO ]IoManager.MaIo.DeviceState|dev=7f0f753a6790|cfgid=iOmsRcSv|st=14.Disposing|id={L=0.0.0.0:6601}|info=Parent clear
+20191118-210924.069654  1953[INFO ]#TcpServer|Plugins stop
+20191118-210924.069657  1953[INFO ]#NamedIoManager|Plugins stop
+20191118-210924.069663  1953[INFO ]#UtwOmsCore|Plugins stop
+20191118-210924.069665  1953[INFO ]#RcSessionServer|Plugins stop
+20191118-210924.069681  1953[INFO ]#OmsRcServerAgent|Plugins stop
+20191118-210924.069756  1952[INFO ]IoManager.UtwFutNormal_io.DeviceState|dev=7f0f7558bdb0|cfgid=L50|st=13.Closed|id={R=192.168.1.33:9000|L=192.168.1.221:49051}|info=Parent clear
+20191118-210924.069763  1952[INFO ]IoManager.UtwFutNormal_io.DeviceState|dev=7f0f7558bdb0|cfgid=L50|st=14.Disposing|id={}|info=Parent clear
+20191118-210924.069805  1956[IMP  ]OmsBackend.ThrRun.End|name=omstw_20191118_Backend
+20191118-210924.070093  1957[IMP  ]MessageQueue.ThrRun.End|name=omstw_20191118|indexInPool=1
+20191118-210924.070391  1950[INFO ]OmsThread|name=omstw_20191118|Type=f9omstw::OmsCoreByThread<fon9::WaitPolicy_CV>|Cpu=19:OK
+20191118-210924.073760  1950[INFO ]OmsThread|name=omstw_20191118|Type=f9omstw::OmsCoreByThread<fon9::WaitPolicy_CV>|Cpu=19:OK
+20191118-210924.098442  1959[IMP  ]FdrThread.ThrRun.End|name=MaIo.epoll
+20191118-210924.098443  1960[IMP  ]FdrThread.ThrRun.End|name=MaIo.epoll
+20191118-210924.098458  1961[IMP  ]FdrThread.ThrRun.End|name=UtwFutNormal_io.epoll
+20191118-210924.098489  1962[IMP  ]FdrThread.ThrRun.End|name=UtwFutNormal_io.epoll
+20191118-210924.129304  1953[IMP  ]MessageQueue.ThrRun.End|name=fon9.DefaultThreadPool|indexInPool=2
+20191118-210924.129364  1952[IMP  ]MessageQueue.ThrRun.End|name=fon9.DefaultThreadPool|indexInPool=1
+20191118-210924.129408  1955[IMP  ]MessageQueue.ThrRun.End|name=fon9.DefaultThreadPool|indexInPool=4
+20191118-210924.129454  1954[IMP  ]MessageQueue.ThrRun.End|name=fon9.DefaultThreadPool|indexInPool=3
+20191118-130924.260173  1950[IMP  ]LogFile.OnDestroy|orig=./logs/20191118/fon9sys-0000.log|time+8=20191118210906.118401
+
+20191118-210932.195172  2022[IMP  ]LogFile.OnStart|orig=./logs/20191118/fon9sys-0000.log|time+8=20191118210932.195172
+20191118-210932.195176  2023[IMP  ]TimerThread.ThrRun|name=Default.TimerThread
+20191118-210932.454160  2022[INFO ]$MemLock:mlockall(MCL_CURRENT|MCL_FUTURE)|info=OK!
+20191118-210932.454240  2022[INFO ]#Dgram|Plugins running
+20191118-210932.454264  2022[INFO ]#FileIO|Plugins running
+20191118-210932.454270  2022[INFO ]#TcpClient|Plugins running
+20191118-210932.454275  2022[INFO ]#TcpServer|Plugins running
+20191118-210932.454279  2022[INFO ]#NamedIoManager|Plugins running
+20191118-210932.454335  2022[INFO ]#UtwOmsCore|Plugins running
+20191118-210933.202219  2026[IMP  ]MessageQueue.ThrRun|name=fon9.DefaultThreadPool|indexInPool=1
+20191118-210933.205564  2027[IMP  ]MessageQueue.ThrRun|name=fon9.DefaultThreadPool|indexInPool=2
+20191118-210933.206676  2028[IMP  ]MessageQueue.ThrRun|name=fon9.DefaultThreadPool|indexInPool=3
+20191118-210933.207086  2029[IMP  ]MessageQueue.ThrRun|name=fon9.DefaultThreadPool|indexInPool=4
+20191118-210933.260150  2022[INFO ]#RcSessionServer|Plugins running
+20191118-210933.260171  2022[INFO ]#OmsRcServerAgent|Plugins running
+20191118-210933.260202  2031[IMP  ]OmsBackend.ThrRun|name=omstw_20191118_Backend
+20191118-210933.260831  2032[IMP  ]MessageQueue.ThrRun|name=omstw_20191118|indexInPool=1
+20191118-210933.260897  2032[INFO ]OmsThread|name=omstw_20191118|Type=f9omstw::OmsCoreByThread<fon9::WaitPolicy_CV>|Cpu=19:OK
+20191118-210933.262109  2022[IMP  ]SysEnv|ProcessId=2022
+20191118-210933.262110  2022[IMP  ]SysEnv|CommandLine=home/fonwin/devel/output/f9omstw/release/f9utw/f9utw
+20191118-210933.262111  2022[IMP  ]SysEnv|ExecPath=/home/fonwin/f9utwf/block
+20191118-210933.262113  2022[IMP  ]SysEnv|ConfigPath=fon9cfg/
+20191118-210933.262114  2022[IMP  ]SysEnv|HostId=221
+20191118-210933.558560  2023[INFO ]FileImpMgr|Info=NextCheckTime|Name=ExgConfig/ExgImporter|SchCfg={Weekdays=0123456|Start=00:00:00|TZ=L}
+20191118-210933.558582  2027[INFO ]FileImpMgr|Info=LoadAll.Start|Name=ExgConfig/ExgImporter
+20191118-210933.558587  2027[INFO ]FileImpSeed.Start|Name=P06|fname=./tmpsave/P06|pos=0
+20191118-210933.558761  2027[INFO ]FileImpSeed.Done|Name=P06|loader=7f52f4000a50|result=20191118-21:09:33.558755|fname=./tmpsave/P06|ftime=20191009-15:53:06|fsize=6264|LnCount=522
+20191118-210933.558762  2027[INFO ]FileImpSeed.~Loader|loader=7f52f4000a50
+20191118-210933.558763  2027[INFO ]FileImpSeed.Start|Name=P07_10|fname=./tmpsave/P07.10|pos=0
+20191118-210933.558775  2027[INFO ]FileImpSeed.Done|Name=P07_10|loader=0|result=20191118-21:09:33.558774|fname=./tmpsave/P07.10|Open err=:2:No such file or directory
+20191118-210933.558776  2027[INFO ]FileImpSeed.Start|Name=P07_11|fname=./tmpsave/P07.11|pos=0
+20191118-210933.558780  2027[INFO ]FileImpSeed.Done|Name=P07_11|loader=0|result=20191118-21:09:33.558779|fname=./tmpsave/P07.11|Open err=:2:No such file or directory
+20191118-210933.558781  2027[INFO ]FileImpSeed.Start|Name=P07_20|fname=./tmpsave/P07.20|pos=0
+20191118-210933.558784  2027[INFO ]FileImpSeed.Done|Name=P07_20|loader=0|result=20191118-21:09:33.558784|fname=./tmpsave/P07.20|Open err=:2:No such file or directory
+20191118-210933.558785  2027[INFO ]FileImpSeed.Start|Name=P07_21|fname=./tmpsave/P07.21|pos=0
+20191118-210933.558789  2027[INFO ]FileImpSeed.Done|Name=P07_21|loader=0|result=20191118-21:09:33.558788|fname=./tmpsave/P07.21|Open err=:2:No such file or directory
+20191118-210933.558790  2027[INFO ]FileImpSeed.Start|Name=P08_10|fname=./tmpsave/P08.10|pos=0
+20191118-210933.560258  2027[INFO ]FileImpSeed.Done|Name=P08_10|loader=7f52f4003630|result=20191118-21:09:33.560254|fname=./tmpsave/P08.10|ftime=20191007-08:10:08|fsize=1214080|LnCount=7588
+20191118-210933.560262  2027[INFO ]FileImpSeed.~Loader|loader=7f52f4003630
+20191118-210933.560264  2027[INFO ]FileImpSeed.Start|Name=P08_11|fname=./tmpsave/P08.11|pos=0
+20191118-210933.563430  2027[INFO ]FileImpSeed.Done|Name=P08_11|loader=7f52f4003630|result=20191118-21:09:33.563424|fname=./tmpsave/P08.11|ftime=20191007-15:00:01|fsize=64640|LnCount=404
+20191118-210933.563435  2027[INFO ]FileImpSeed.~Loader|loader=7f52f4003630
+20191118-210933.563437  2027[INFO ]FileImpSeed.Start|Name=P08_20|fname=./tmpsave/P08.20|pos=0
+20191118-210933.563640  2027[INFO ]FileImpSeed.Done|Name=P08_20|loader=7f52f4003630|result=20191118-21:09:33.563637|fname=./tmpsave/P08.20|ftime=20191007-08:10:01|fsize=177600|LnCount=1110
+20191118-210933.563643  2027[INFO ]FileImpSeed.~Loader|loader=7f52f4003630
+20191118-210933.563645  2027[INFO ]FileImpSeed.Start|Name=P08_21|fname=./tmpsave/P08.21|pos=0
+20191118-210933.564051  2027[INFO ]FileImpSeed.Done|Name=P08_21|loader=7f52f4003630|result=20191118-21:09:33.564046|fname=./tmpsave/P08.21|ftime=20191007-15:00:01|fsize=6080|LnCount=38
+20191118-210933.564055  2027[INFO ]FileImpSeed.~Loader|loader=7f52f4003630
+20191118-210933.564057  2027[INFO ]FileImpSeed.Start|Name=PA8_10|fname=./tmpsave/PA8.10|pos=0
+20191118-210933.564845  2027[INFO ]FileImpSeed.Done|Name=PA8_10|loader=7f52f4003630|result=20191118-21:09:33.564841|fname=./tmpsave/PA8.10|ftime=20191007-08:10:15|fsize=1289960|LnCount=7588
+20191118-210933.564847  2027[INFO ]FileImpSeed.~Loader|loader=7f52f4003630
+20191118-210933.564849  2027[INFO ]FileImpSeed.Start|Name=PA8_11|fname=./tmpsave/PA8.11|pos=0
+20191118-210933.564892  2027[INFO ]FileImpSeed.Done|Name=PA8_11|loader=7f52f4003630|result=20191118-21:09:33.564890|fname=./tmpsave/PA8.11|ftime=20191007-15:00:01|fsize=68680|LnCount=404
+20191118-210933.567261  2027[INFO ]FileImpSeed.~Loader|loader=7f52f4003630
+20191118-210933.567265  2027[INFO ]FileImpSeed.Start|Name=PA8_20|fname=./tmpsave/PA8.20|pos=0
+20191118-210933.567441  2027[INFO ]FileImpSeed.Done|Name=PA8_20|loader=7f52f4003630|result=20191118-21:09:33.567436|fname=./tmpsave/PA8.20|ftime=20191007-08:10:01|fsize=188700|LnCount=1110
+20191118-210933.567444  2027[INFO ]FileImpSeed.~Loader|loader=7f52f4003630
+20191118-210933.567446  2027[INFO ]FileImpSeed.Start|Name=PA8_21|fname=./tmpsave/PA8.21|pos=0
+20191118-210933.568260  2027[INFO ]FileImpSeed.Done|Name=PA8_21|loader=7f52f4003630|result=20191118-21:09:33.568255|fname=./tmpsave/PA8.21|ftime=20191007-15:00:01|fsize=6460|LnCount=38
+20191118-210933.568264  2027[INFO ]FileImpSeed.~Loader|loader=7f52f4003630
+20191118-210933.568267  2027[INFO ]FileImpMgr|Info=LoadAll.Done|Name=ExgConfig/ExgImporter|SchCfg={Weekdays=0123456|Start=00:00:00|TZ=L}
+20191118-210934.264632  2029[INFO ]IoManager.MaIo.DeviceState|dev=7f532959e640|cfgid=iOmsRcSv|st=3.Opening|OmsRcSvr={}|TcpServer={6601}
+20191118-210934.264659  2034[IMP  ]FdrThread.ThrRun|name=MaIo.epoll|index=1|Cpu=-1:|Wait=Block|Capacity=100
+20191118-210934.264715  2029[INFO ]IoManager.MaIo.DeviceState|dev=7f532959e640|cfgid=iOmsRcSv|st=9.Listening|id={L=0.0.0.0:6601}|info=
+20191118-210934.264992  2035[IMP  ]FdrThread.ThrRun|name=MaIo.epoll|index=2|Cpu=-1:|Wait=Block|Capacity=100
+20191118-210936.265731  2027[INFO ]IoManager.UtwFutNormal_io.DeviceState|dev=7f532997bc60|cfgid=L50|st=3.Opening|TWF={FcmId=279|SessionId=51|Pass=9999|ApCode=4|IsUseSymNum=N}|TcpClient={192.168.1.33:9000|Bind=49051|ReuseAddr=Y|ClosedReopen=5}
+20191118-210936.265770  2036[IMP  ]FdrThread.ThrRun|name=UtwFutNormal_io.epoll|index=1|Cpu=-1:|Wait=Block|Capacity=0
+20191118-210936.266100  2037[IMP  ]FdrThread.ThrRun|name=UtwFutNormal_io.epoll|index=2|Cpu=-1:|Wait=Block|Capacity=0
+20191118-210936.267089  2028[INFO ]IoManager.UtwFutNormal_io.DeviceState|dev=7f532997bc60|cfgid=L50|st=7.LinkReady|id={R=192.168.1.33:9000|L=192.168.1.221:49051}|info=
+20191118-210936.284694  2036[INFO ]IoManager.UtwFutNormal_io.SessionState|dev=7f532997bc60|cfgid=L50|st=4:ApReady
+20191118-211000.842071  2034[INFO ]TcpServer.Accepted|dev=7f52e8001590|seq=1|R=127.0.0.1:39066|L=127.0.0.1:6601
+20191118-211000.842110  2028[INFO ]IoManager.MaIo.DeviceState|dev=7f52e8001590|st=7.LinkReady|id={R=127.0.0.1:39066|L=127.0.0.1:6601}|info=
+20191118-211000.854817  2035[INFO ]UserMgr.AuthUpdate|table=UserSha256|from=127.0.0.1|authcId=fonwin
+20191118-211000.854865  2035[INFO ]IoManager.MaIo.SessionState|dev=7f52e8001590|st=|RemoteAp=f9omsApi.0|from=127.0.0.1|user=fonwin|Last logon: 2019/11/18 21:09:19 from 127.0.0.1
+20191118-211305.936311  2029[INFO ]IoManager.MaIo.DeviceState|dev=7f52e8001590|st=14.Disposing|id={R=127.0.0.1:39066|L=127.0.0.1:6601}|info=Recv:disconnected.
+20191118-211346.731679  2034[INFO ]TcpServer.Accepted|dev=7f52e8001590|seq=1|R=127.0.0.1:39068|L=127.0.0.1:6601
+20191118-211346.731714  2026[INFO ]IoManager.MaIo.DeviceState|dev=7f52e8001590|st=7.LinkReady|id={R=127.0.0.1:39068|L=127.0.0.1:6601}|info=
+20191118-211346.744923  2035[INFO ]UserMgr.AuthUpdate|table=UserSha256|from=127.0.0.1|authcId=fonwin
+20191118-211346.744968  2035[INFO ]IoManager.MaIo.SessionState|dev=7f52e8001590|st=|RemoteAp=f9omsApi.0|from=127.0.0.1|user=fonwin|Last logon: 2019/11/18 21:10:00 from 127.0.0.1
